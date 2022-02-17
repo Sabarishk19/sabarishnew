@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+ 
+<html>
+ 
+<head>
+    <title>Valenta BOT</title>
+ 
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+ 
+        .navbar {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: sticky;
+            top: 0;
+            cursor: pointer;
+        }
+ 
+        .background {
+            background: black;
+            background-blend-mode: darken;
+            background-size: cover;
+
+            
+        }
+ 
+        .nav-list {
+            width: 95%;
+            display: flex;
+            align-items: right;
+        }
+ 
+        .logo {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+ 
+        .logo img {
+            width: 70px;
+            border-radius: 50px;
+        }
+ 
+        .nav-list li {
+            list-style: none;
+            padding: 30px 50px;
+        }
+ 
+        .nav-list li a {
+            text-decoration: none;
+            color: white;
+        }
+ 
+        .nav-list li a:hover {
+            color: grey;
+        }
+ 
+        .rightnav {
+            width: 30%;
+            text-align: right;
+        }
+ 
+        #search {
+            padding: 5px;
+            font-size: 17px;
+            border: 2px solid grey;
+            border-radius: 9px;
+        }
+ 
+        .firstsection {
+            background-image: url("image.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 600px;
+        }
+ 
+        .secondsection {
+            background-color: rgb(153, 63, 63);
+            height: 500px;
+        }
+ 
+        .box-main {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: black;
+            max-width: 80%;
+            margin: auto;
+            height: 80%;
+        }
+ 
+        .firsthalf {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+ 
+        .secondhalf {
+            width: 30%;
+        }
+ 
+        .secondhalf img {
+            width: 70%;
+            border: 4px solid rgb(160, 58, 58);
+            border-radius: 150px;
+            display: block;
+            margin: auto;
+        }
+ 
+        .text-big {
+            font-family: 'Piazzolla', serif;
+            font-weight: bold;
+            font-color: green;
+            font-size: 70px;
+        }
+ 
+        .text-small {
+            font-size: 38px;
+        }
+ 
+        .btn {
+            padding: 8px 20px;
+            margin: 7px 0;
+            border: 2px solid white;
+            border-radius: 8px;
+            background: none;
+            color: white;
+            cursor: pointer;
+        }
+ 
+        .btn-sm {
+            padding: 6px 10px;
+            vertical-align: middle;
+        }
+ 
+        .section {
+            height: 400px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            max-width: 90%;
+            margin: auto;
+        }
+ 
+        .section-Left {
+            flex-direction: row-reverse;
+        }
+ 
+        .paras {
+            padding: 0px 65px;
+        }
+ 
+        .thumbnail img {
+            width: 250px;
+            border: 2px solid black;
+            border-radius: 26px;
+            margin-top: 19px;
+        }
+ 
+        .center {
+            text-align: center;
+        }
+ 
+        .text-footer {
+            text-align: center;
+            padding: 60px 0;
+            font-family: 'Ubuntu', sans-serif;
+            display: flex;
+            justify-content: center;
+            color: white;
+        }
+    </style>
+</head>
+ 
+<body>
+    <nav class="navbar background">
+        <ul class="nav-list">
+            <div class="logo">
+                <img src= "images-1.jpg">
+            </div>
+            <li><a href="https://www.senseforth.ai/industry/banking">Industry AI Models</a></li>
+            <li><a href="https://www.senseforth.ai/solutions/marketing-sales">Solutions</a></li>
+            <li><a href="https://www.senseforth.ai/information-security">Platforms</a></li>
+            <li><a href="https://www.senseforth.ai/bot-store/banking/">Bot Store</a></li>
+            <li><a href="https://www.senseforth.ai/hybrid-chat">Products</a></li>
+            <li><a href="https://www.senseforth.ai/learning/articles">Insights</a></li>
+            <li><a href="https://www.senseforth.ai/learning/conversational-ai-case-studies">Case Studies</a></li>
+        </ul>
+ 
+        <button type="button" class = "btn btn-primary" onclick="alert('Request for demo Page not made yet!')">Request a Demo</button>
+    </nav>
+ 
+    <section class="firstsection">
+        <div class="box-main">
+            <div class="firstHalf">
+                <h1 class="text-big" id="web">Reboot Your Business with
+                    Conversational AI</h1>
+                    <p class="text-small">
+                        <centre>Increase revenue and reduce costs
+                            in a digital first future</centre>
+                    </p>
+                
+ 
+            </div>
+        </div>
+    </section>
+ 
+    <section class="secondsection">
+        <div class="box-main">
+            <div class="firstHalf">
+                <h1 class="text-big" id="program">
+                    <centre>Drive business growth with Conversational AI</centre>
+                </h1>
+                <h2>Acquire new customers</h2>
+                <p>Engage with prospects and capture leads more efficiently with conversational chabots</p>
+                <p class="text-small">
+                    
+                </p>
+ 
+ 
+            </div>
+        </div>
+    </section>
+ 
+    <section class="section">
+        <div class="paras">
+            <h1 class="sectionTag text-big"></h1>
+ 
+            <p class="sectionSubTag text-small">
+                
+            </p>
+ 
+ 
+        </div>
+ 
+        <div class="thumbnail">
+            <img src= "images-1.jpg" alt="laptop image">
+
+        </div>
+    </section>
+ 
+    <footer class="background">
+        <p class="text-footer">
+            <li></li>
+        </p>
+ 
+ 
+    </footer>
+</body>
+</html>
